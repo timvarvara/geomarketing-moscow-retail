@@ -1,12 +1,34 @@
-scikit-learn
-geopandas
-h3pandas
-h3~==3.0
-leafmap
-mapclassify
-matplotlib
-streamlit
-osmnx
-kneed
-openrouteservice
-polyline
+# Основные зависимости для геомаркетингового исследования
+python>=3.8
+
+# Анализ данных и вычисления
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Геопространственные библиотеки
+geopandas>=0.10.0
+osmnx>=1.0.0
+h3>=3.7.0
+shapely>=1.8.0
+folium>=0.12.0
+leafmap>=0.10.0
+
+# Машинное обучение
+scikit-learn>=1.0.0
+lightgbm>=3.3.0
+xgboost>=1.5.0
+
+# Визуализация
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Вспомогательные библиотеки
+kneed>=0.8.0
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Для работы с картами
+contextily>=1.2.0
+pyproj>=3.2.0
