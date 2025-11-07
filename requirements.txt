@@ -1,0 +1,12 @@
+scikit-learn
+geopandas
+h3pandas
+h3~==3.0
+leafmap
+mapclassify
+matplotlib
+streamlit
+osmnx
+kneed
+openrouteservice
+polyline
